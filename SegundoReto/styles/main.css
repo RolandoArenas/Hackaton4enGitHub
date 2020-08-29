@@ -280,3 +280,70 @@ h1 {
     background-image: url(../images/OurworksImagen.jpg);
     background-size: 100% 100%;
 }   
+
+.pricingplants {
+    
+    background: black;
+    width: 100vw;
+    height: 60vh;
+    padding: 2% 10% 2% 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 20% 74%);
+    grid-gap: 2%;
+}
+
+.pricingplants1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.pricingplants2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: dimgrey;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.pricingplants3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: dimgrey;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.pricingplants4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: dimgrey;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
