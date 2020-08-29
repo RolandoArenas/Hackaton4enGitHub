@@ -1,0 +1,74 @@
+header {
+    background-color: #ffff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.headersuperior {
+    width: 100%;
+    height: 10%;
+    background: black;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.headerinferior{
+    width: 100%;
+    height: 90%;
+    background-image: url(../images/BonfirePortada.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.headersuperior > a {
+    background: black;
+}
+
+.headersuperior > nav {
+    width: 40%;
+    background: black;
+}
+
+.headerlogo {
+    width: 120px;
+}
+
+.headersuperior nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headermenu {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+h1 {
+    
+    width: 500px;
+    margin: 0rem 6rem 0rem 0rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.headerpretitulo {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.headertitulo {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
